@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "original_sha256": "f41f8c089370de2211ef5956eb53b56dc37cdb79f80de321a02322dd160919ac",
+  "sanitized_sha256": "bcdf6c4f34fbdfed419c78b966e7b2e53ccc611d0b332458d45525751525b489",
+  "identity_fields": [
+    "sample_id",
+    "subject_id",
+    "trial_id",
+    "trial_index",
+    "segment_id",
+    "emotion",
+    "split"
+  ],
+  "identity_hash_algorithm": "SHA-256 of UTF-8 JSON list of identity dictionaries in CSV row order; json.dumps(sort_keys=True,separators=(comma,colon)); all values strings",
+  "original_identity_sha256": "c60f2b1fcd2fa7be92511524fcbff48c414532bf35bd75171d157761dde19ce7",
+  "sanitized_identity_sha256": "c60f2b1fcd2fa7be92511524fcbff48c414532bf35bd75171d157761dde19ce7",
+  "split_identity_sha256": {
+    "train": "99697544e2d9bf357c06952bf3eee2a4c4175b3b9a60642d0dfbceed644b928c",
+    "val": "1d9fa57d8de447672bde6b00b9284240155608a2d77dfc763bd7bc686801f36e",
+    "test": "0df29635f75484ff7f330cdeae34128c9e6cce457ed67799633126be3fa18a4e"
+  },
+  "split_sizes": {
+    "train": 10080,
+    "val": 1680,
+    "test": 5040
+  },
+  "sample_count": 16800,
+  "trial_count": 4200,
+  "subject_count": 42,
+  "trial_key": [
+    "subject_id",
+    "trial_index"
+  ],
+  "trial_split_overlap": 0,
+  "source_to_sanitized_retained_values_equal": true,
+  "transform": "Preserve all rows, row order and seven identity fields; remove recording path columns; emit UTF-8 CSV with LF line endings."
+}

@@ -1,0 +1,40 @@
+# Keep data/ (Python source) and splits/*.csv tracked.
+/local_data/
+/output/
+/outputs/
+/checkpoints/
+/runs/
+/wandb/
+/logs/
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.pkl
+*.pickle
+*.log
+*.zip
+
+# Local credentials and machine configuration.
+.env
+.env.*
+!.env.example
+.ssh/
+.ssh_sync_user/
+*.pem
+*.key
+
+# Python/editor artifacts.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
