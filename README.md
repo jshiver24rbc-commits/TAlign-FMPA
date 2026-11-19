@@ -67,8 +67,20 @@ Video and signal extraction libraries are not runtime dependencies.
 
 ## Data preparation
 
-Obtain EAV separately under its access terms. Prepare the **matching formal
-feature cache**, with these files directly under each modality directory:
+Obtain EAV separately from the dataset authors' official resources:
+
+- [Official EAV project and data-access information](https://github.com/nubcico/EAV)
+- [Official Zenodo dataset record, version 3](https://zenodo.org/records/13799131)
+- [Dataset paper: Lee et al., Scientific Data, 2024](https://www.nature.com/articles/s41597-024-03838-4)
+
+The files on Zenodo have restricted access. Follow the application instructions
+on that record and obtain authorization from the dataset providers. This
+repository does not redistribute EAV recordings or feature caches. The
+dataset providers' pre-extracted features are not assumed to match the feature
+representation used by TAlign-FMPA.
+
+Prepare the **matching formal feature cache**, with these files directly under
+each modality directory:
 
 ```text
 /path/to/eav_features/
