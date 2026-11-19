@@ -221,3 +221,68 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ==============================
+# TAlign-FMPA Project
+# ==============================
+
+# Raw datasets and feature caches
+/data/
+/raw_data/
+/datasets/raw/
+/data_cache/
+/features/
+/feature_cache/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+/checkpoints/
+/pretrained/
+
+# Training outputs and logs
+/outputs/
+/logs/
+/runs/
+/wandb/
+/experiments/
+/tensorboard/
+
+# Large data files
+*.npy
+*.npz
+*.pkl
+*.h5
+*.hdf5
+*.mat
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+secrets/
+credentials.json
+*.pem
+
+# IDE settings
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Private manuscript and submission materials
+/manuscript/
+/submission/
+/ESWA_Submission/
