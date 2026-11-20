@@ -2,7 +2,7 @@
 
 **Temporal Alignment and Fusion-Guided Modality-Preserving Attention for Multimodal Emotion Recognition**
 
-Jia Liu, Zhihui Zhou, and Lina Wei
+Jia Liu, Zhihui Zhou, Zhangjia Deng, Dapeng Chen, and Lina Wei
 
 This repository contains the full-model **EAV** experiment for the TAlign-FMPA
 manuscript, extracted from the research implementation
@@ -214,7 +214,7 @@ Use its manuscript details until publication metadata is available:
 
 ```bibtex
 @unpublished{liu2026talignfmpa,
-  author = {Liu, Jia and Zhou, Zhihui and Wei, Lina},
+  author = {Liu, Jia and Zhou, Zhihui and Deng, Zhangjia and Chen, Dapeng and Wei, Lina},
   title = {{TAlign-FMPA}: Temporal Alignment and Fusion-Guided
            Modality-Preserving Attention for Multimodal Emotion Recognition},
   year = {2026},
@@ -228,5 +228,5 @@ The relevant model and training components were extracted from the
 Emotion-LLaMA-v2 research tree. Its BSD notice is retained in
 [third_party/Emotion-LLaMA-v2_LICENSE.md](third_party/Emotion-LLaMA-v2_LICENSE.md).
 No LLaMA weights, language-model code, baseline implementations, or raw EAV
-recordings are included. A final license for the authors' contributions must
-be confirmed before public release.
+recordings are included. The repository is publicly accessible; license
+selection for the authors' contributions remains pending.
